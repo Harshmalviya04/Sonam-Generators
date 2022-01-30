@@ -113,18 +113,21 @@ section {
 }
 
 #primary-nav-button:before {
-  /* content: 'â˜°'; */
   content: '\2261';
-  display: inline-block;
-  background-color: #4883ff;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1.05;
-  width: 70px;
-  color: inherit;
-  speak: none;
-  border: none;
+    display: inline-block;
+    background-color: #4883ff;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.05;
+    width: 55px;
+    right: 0;
+    position: absolute;
+    margin-right: -2vw;
+    right: 0;
+    /* color: inherit; */
+    /* speak: none; */
+    border: none;
 }
 
 #header .logo {
